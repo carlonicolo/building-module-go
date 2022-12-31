@@ -7,6 +7,6 @@ func TestTools_RandomString(t *testing.T) {
 
 	s := testTools.RandomString(10)
 	if len(s) != 10 {
-		t.Error("wrong length random string return")
+		t.Error("returns the wrong length of random string")
 	}
 }
